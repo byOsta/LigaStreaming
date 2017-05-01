@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Liga LOL Streaming",
+  "description": "This extension shows if there is a live streaming",
+  "version": "1.0",
+  "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-128.png",
+      "48": "img/icon-128.png"
+   },
+  "background": {
+    "persistent": true,
+    "scripts": [ "scripts/background.js" ]
+  },
+  "browser_action": {
+    "default_icon": "img/icon-128.png",
+    "default_popup": "popup.html"
+  }
+}
