@@ -1,1 +1,1 @@
-console.log("Liga LOL Streaming");
+console.log("Liga LOL Streaming 0.1.0");
